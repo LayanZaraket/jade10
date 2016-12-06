@@ -1,25 +1,9 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="127" inline="true" x="-15" y="70">
-    <value name="TIMES">
-      <block type="math_number" id="134">
-        <field name="NUM">1</field>
-      </block>
-    </value>
-    <statement name="DO">
-      <block type="movement_forward" id="114"></block>
-    </statement>
+  <block type="movement_forward" id="114" x="-61" y="213">
     <next>
       <block type="movement_right" id="215">
         <next>
-          <block type="controls_repeat" id="269" inline="true">
-            <value name="TIMES">
-              <block type="math_number" id="297">
-                <field name="NUM">1</field>
-              </block>
-            </value>
-            <statement name="DO">
-              <block type="movement_forward" id="280"></block>
-            </statement>
+          <block type="movement_forward" id="280">
             <next>
               <block type="movement_right" id="290"></block>
             </next>
