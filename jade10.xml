@@ -2,24 +2,31 @@
   <block type="controls_repeat" id="127" inline="true" x="-15" y="70">
     <value name="TIMES">
       <block type="math_number" id="134">
-        <field name="NUM">3</field>
+        <field name="NUM">1</field>
       </block>
     </value>
     <statement name="DO">
       <block type="movement_forward" id="114">
         <next>
-          <block type="robot_delay" id="178" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="185">
-                <field name="NUM">5</field>
-              </block>
-            </value>
-            <next>
-              <block type="movement_right" id="215"></block>
-            </next>
-          </block>
+          <block type="movement_right" id="215"></block>
         </next>
       </block>
     </statement>
+    <next>
+      <block type="controls_repeat" id="269" inline="true">
+        <value name="TIMES">
+          <block type="math_number" id="297">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="movement_forward" id="280">
+            <next>
+              <block type="movement_right" id="290"></block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
   </block>
 </xml>
