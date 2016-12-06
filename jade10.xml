@@ -1,15 +1,1 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="114" x="-61" y="213">
-    <next>
-      <block type="movement_right" id="215">
-        <next>
-          <block type="movement_forward" id="280">
-            <next>
-              <block type="movement_right" id="290"></block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </next>
-  </block>
-</xml>
+<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
