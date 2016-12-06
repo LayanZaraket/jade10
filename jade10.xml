@@ -6,26 +6,25 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="114">
-        <next>
-          <block type="movement_right" id="215"></block>
-        </next>
-      </block>
+      <block type="movement_forward" id="114"></block>
     </statement>
     <next>
-      <block type="controls_repeat" id="269" inline="true">
-        <value name="TIMES">
-          <block type="math_number" id="297">
-            <field name="NUM">1</field>
-          </block>
-        </value>
-        <statement name="DO">
-          <block type="movement_forward" id="280">
+      <block type="movement_right" id="215">
+        <next>
+          <block type="controls_repeat" id="269" inline="true">
+            <value name="TIMES">
+              <block type="math_number" id="297">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+            <statement name="DO">
+              <block type="movement_forward" id="280"></block>
+            </statement>
             <next>
               <block type="movement_right" id="290"></block>
             </next>
           </block>
-        </statement>
+        </next>
       </block>
     </next>
   </block>
