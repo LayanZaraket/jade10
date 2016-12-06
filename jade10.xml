@@ -9,14 +9,4 @@
       <block type="movement_forward" id="114"></block>
     </statement>
   </block>
-  <block type="robot_delay" id="35" inline="true" x="142" y="233">
-    <value name="DELAY">
-      <block type="math_number" id="94">
-        <field name="NUM">50</field>
-      </block>
-    </value>
-    <next>
-      <block type="movement_left" id="27"></block>
-    </next>
-  </block>
 </xml>
